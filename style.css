@@ -45,6 +45,7 @@ h1 {
   margin-top: 1000px;
   text-align: center;
   text-decoration: none;
+
 }
 
 .whatdouneedmain {
@@ -191,6 +192,7 @@ h1 {
   /* Устанавливаем высоту */
   padding: 20px;
   /* Добавляем отступ внутри рамки */
+  margin-top: 100px;
 }
 
 .phototechsk {
