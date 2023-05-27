@@ -1,0 +1,205 @@
+body {
+  background-color: bisque;
+}
+
+.logo-link-header {
+  text-decoration: none;
+  color: cornflowerblue;
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 50px;
+}
+
+.logo-link-header:hover {
+  color: red;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 70px;
+}
+
+.p-main-description {
+  text-align: center;
+  font-size: 100px;
+}
+
+.main-logo-text {
+  color: cornflowerblue;
+}
+
+.p-main-description {
+  font-family: "Montserrat";
+  font-weight: 800;
+  font-size: 15px;
+}
+
+.whatdouneed {
+  margin-top: 50px;
+  text-align: center;
+}
+
+#soft-skills {
+  margin-top: 1000px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.whatdouneedmain {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 35px;
+}
+
+.softsk-link {
+  text-decoration: none;
+  color: plum;
+  font-size: 50px;
+}
+
+.scroll-to-top-button {
+  display: inline-block;
+  background-color: plum;
+  color: #111111;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 50px;
+}
+
+.scroll-to-top-button:hover {
+  background-color: red;
+}
+
+.softskills-text {
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+.softskills-text-p {
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+.button-text {
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.button {
+  background-color: plum;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+.button-soft:hover {
+  background-color: red;
+}
+
+.container-h2 {
+  font-family: "Montserrat";
+  font-weight: 800;
+  text-align: center;
+}
+
+.main-div-soft {
+  border: 1px solid black;
+  /* Устанавливаем границу */
+  width: 98%;
+  /* Устанавливаем ширину */
+  height: 340px;
+  /* Устанавливаем высоту */
+  padding: 20px;
+  /* Добавляем отступ внутри рамки */
+}
+
+.techsk-link {
+  text-decoration: none;
+  color: plum;
+  font-size: 30px;
+}
+
+#tech-skills {
+  margin-top: 1000px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.soft-photo {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.vopros {
+  font-size: 70px;
+}
+
+.uvaga {
+  font-family: "Montserrat";
+  font-weight: 900;
+  margin-top: 200px;
+}
+
+.obernit {
+  color: red;
+}
+
+.pysitmne {
+  text-decoration: none;
+  color: plum;
+}
+
+.pysitmne:hover {
+  color: red;
+}
+
+.main-h2-golova {
+  color: red;
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 30px;
+  margin-top: 200px;
+}
+
+.main-div-tech {
+  border: 1px solid black;
+  /* Устанавливаем границу */
+  width: 98%;
+  /* Устанавливаем ширину */
+  height: 340px;
+  /* Устанавливаем высоту */
+  padding: 20px;
+  /* Добавляем отступ внутри рамки */
+}
+
+.phototechsk {
+  margin-top: 20px;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  text-align: center;
+}
