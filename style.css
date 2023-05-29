@@ -45,7 +45,6 @@ h1 {
   margin-top: 1000px;
   text-align: center;
   text-decoration: none;
-
 }
 
 .whatdouneedmain {
@@ -204,4 +203,53 @@ h3 {
   font-family: "Montserrat";
   font-weight: 900;
   text-align: center;
+}
+/* Custom styles for mobile devices */
+@media only screen and (max-width: 600px) {
+  /* Adjust header and logo styles */
+  header {
+    padding: 10px;
+  }
+
+  .logo-link-header {
+    font-size: 30px;
+  }
+
+  /* Adjust h1 styles */
+  h1 {
+    font-size: 40px;
+  }
+
+  /* Adjust p-main-description styles */
+  .p-main-description {
+    font-size: 18px;
+  }
+
+  /* Adjust whatdouneedmain styles */
+  .whatdouneedmain {
+    font-size: 20px;
+  }
+
+  /* Adjust obernit styles */
+  .obernit {
+    font-size: 40px;
+  }
+
+  /* Adjust main-h2-golova styles */
+  .main-h2-golova {
+    font-size: 20px;
+  }
+
+  /* Adjust main-div-soft and main-div-tech styles */
+  .main-div-soft,
+  .main-div-tech {
+    height: auto;
+  }
+
+  /* Adjust soft-photo and phototechsk styles */
+  .soft-photo img,
+  .phototechsk img {
+    width: 100%;
+    height: auto;
+  }
 }
