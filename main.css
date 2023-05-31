@@ -1,0 +1,177 @@
+body {
+  font-family: "Montserrat";
+  background: linear-gradient(to bottom right, rgba(1, 39, 255, 0.329), bisque);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 900;
+  margin-top: 50px;
+  font-size: 50px;
+}
+.heading-greetings-dirictory {
+  color: cornflowerblue;
+}
+.header-logo {
+  text-decoration: none;
+  color: cornflowerblue;
+  font-weight: 900;
+  font-size: 50px;
+  margin-right: 20px;
+}
+.header-logo:hover {
+  color: red;
+}
+.heading-dirictory {
+  font-weight: 900;
+  color: plum;
+  font-size: 50px;
+}
+.heading-link {
+  text-decoration: none;
+  font-weight: 900;
+  color: rgba(1, 39, 255, 0.329);
+}
+.heading {
+  margin-top: 200px;
+  font-weight: 900;
+  font-size: 30px;
+  text-align: center;
+  color: rgba(1, 39, 255, 0.329);
+}
+
+.header-hr {
+  margin-top: 100px;
+  border: none;
+  height: 2px;
+  background-image: linear-gradient(to right, bisque, rgba(1, 39, 255, 0.329));
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.madeby {
+  font-weight: 900;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 40px;
+}
+.footer-hr {
+  border: none;
+  height: 2px;
+  background-image: linear-gradient(to right, bisque, rgba(1, 39, 255, 0.329));
+  margin-top: 200px;
+}
+.madebylink {
+  text-decoration: none;
+  color: plum;
+  font-size: 25px;
+}
+.polzsogl {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Add this line */
+  margin-bottom: 10px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+  transform: scale(1.5);
+}
+
+#myLink.disabled {
+  color: inherit;
+  text-decoration: none;
+}
+.ineed {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 200px;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  align-items: center;
+}
+nav ul li {
+  margin-right: 40px;
+  font-weight: 900;
+  font-size: 20px;
+  margin-left: 200px;
+}
+.logo li:first-child {
+  margin-right: 0;
+}
+.list-item:hover {
+  cursor: pointer;
+  color: red;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  .header-logo {
+    font-size: 30px;
+    margin-right: 10px;
+  }
+
+  .heading-dirictory {
+    font-size: 30px;
+  }
+
+  .heading-link {
+    font-size: 20px;
+  }
+
+  .heading {
+    margin-top: 100px;
+    font-size: 20px;
+  }
+
+  .header-hr {
+    margin-top: 50px;
+  }
+
+  .madeby {
+    font-size: 15px;
+    margin-top: 20px;
+  }
+
+  .footer-hr {
+    margin-top: 100px;
+  }
+
+  .madebylink {
+    font-size: 20px;
+  }
+
+  .polzsogl {
+    margin-top: 20px;
+  }
+
+  .ineed {
+    font-size: 20px;
+    margin-top: 100px;
+  }
+
+  nav ul li {
+    font-size: 15px;
+    margin-left: 100px;
+    margin-right: 20px;
+  }
+}
