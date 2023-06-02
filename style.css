@@ -123,6 +123,9 @@ nav ul li {
 
 /* Media Query for mobile devices */
 @media screen and (max-width: 600px) {
+  html, body {
+    width: 100%;
+  }
   h1 {
     font-size: 30px;
   }
@@ -147,6 +150,10 @@ nav ul li {
 
   .header-hr {
     margin-top: 50px;
+    width: 100%;
+  }
+  .footer-hr {
+    width: 100%;
   }
 
   .madeby {
