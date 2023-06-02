@@ -37,10 +37,9 @@ h1 {
 h2 {
   text-align: center;
   font-weight: 700;
-  color: cornflowerblue;
+  color: rgba(94, 1, 255, 0.306);
   margin-top: 20px;
   font-size: 24px;
-  font-weight: 900;
 }
 
 li {
