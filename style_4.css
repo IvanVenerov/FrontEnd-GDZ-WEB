@@ -34,14 +34,7 @@ main {
   padding: 0 20px;
 }
 
-h1 {
-  text-align: center;
-  font-weight: 900;
-  font-size: 60px;
-  color: #111111;
-  margin-top: 40px;
-  margin-bottom: 20px;
-}
+
 
 .list-item-link {
   text-decoration: none;
@@ -59,11 +52,6 @@ h1 {
   text-align: center;
   padding: 0;
 }
-
-.chtoeto {
-  color: red;
-}
-
 .lower-description {
   margin-top: 30px;
   font-weight: 900;
@@ -73,7 +61,13 @@ h1 {
 }
 
 .list-item {
-  margin-top: 15px;
+  margin-top: 30px;
+}
+.underlink {
+  text-decoration: none;
+  color: cornflowerblue;
+  font-weight: 900;
+  font-size: 40px;
 }
 
 @media only screen and (max-width: 600px) {
