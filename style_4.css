@@ -6,23 +6,32 @@ body {
   font-family: "Montserrat";
 }
 
-.logo-link-header {
+.header-logo {
   text-decoration: none;
   color: cornflowerblue;
-  font-family: "Montserrat";
   font-weight: 900;
   font-size: 50px;
+  margin-right: 20px;
 }
 
-.logo-link-header:hover {
+.header-logo:hover {
   color: red;
 }
 
-h1 {
+header {
+  margin-top: 80px;
   text-align: center;
-  font-weight: 900;
-  font-size: 60px;
-  color: #111111;
+}
+
+.header-hr {
+  margin-top: 20px;
+  border: none;
+  height: 2px;
+  background-image: linear-gradient(to right, bisque, rgba(1, 39, 255, 0.329));
+}
+
+main {
+  padding: 0 20px;
 }
 
 .list-item-link {
@@ -39,35 +48,28 @@ h1 {
 .unor-list {
   list-style: none;
   text-align: center;
-}
-
-.chtoeto {
-  color: red;
+  padding: 0;
+  margin-top: 100px;
 }
 
 .lower-description {
-  margin-top: 70px;
+  margin-top: 100px;
   font-weight: 900;
   color: red;
+  font-size: 14px;
+  text-align: center;
+
 }
-.header-logo {
+
+.list-item {
+  margin-top: 15px;
+}
+
+.problem-link {
   text-decoration: none;
   color: cornflowerblue;
   font-weight: 900;
-  font-size: 50px;
-  margin-right: 20px;
-}
-.header-hr {
-  margin-top: 100px;
-  border: none;
-  height: 2px;
-  background-image: linear-gradient(to right, bisque, rgba(1, 39, 255, 0.329));
-}
-.header-logo:hover {
-  color: red;
-}
-.list-item {
-  margin-top: 15px;
+  
 }
 @media only screen and (max-width: 600px) {
   h1 {
@@ -79,8 +81,8 @@ h1 {
   }
 
   .lower-description {
-    margin-top: 50px;
-    font-size: 14px;
+    margin-top: 20px;
+    font-size: 12px;
   }
 
   .header-logo {
@@ -89,7 +91,7 @@ h1 {
   }
 
   .header-hr {
-    margin-top: 50px;
+    margin-top: 20px;
   }
 
   .list-item {

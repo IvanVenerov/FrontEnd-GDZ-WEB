@@ -5,19 +5,22 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
+  padding: 20px;
 }
 
 h1 {
   text-align: center;
   font-weight: 900;
   color: plum;
+  font-size: 32px;
+  margin-top: 30px;
 }
 
 .header-logo {
   text-decoration: none;
   color: cornflowerblue;
   font-weight: 900;
-  font-size: 50px;
+  font-size: 30px;
 }
 
 .header-logo:hover {
@@ -25,7 +28,7 @@ h1 {
 }
 
 .header-hr {
-  margin-top: 100px;
+  margin-top: 30px;
   border: none;
   height: 2px;
   background-image: linear-gradient(to right, bisque, rgba(1, 39, 255, 0.329));
@@ -34,17 +37,21 @@ h1 {
 h2 {
   text-align: center;
   font-weight: 700;
-  color: rgba(94, 1, 255, 0.306);
+  color: cornflowerblue;
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: 900;
 }
 
 li {
   text-align: center;
   font-weight: 900;
-  margin-top: 25px;
+  margin-top: 20px;
+  font-size: 18px;
 }
 
 header {
-  margin-top: 80px;
+  margin-top: 20px;
   text-align: center;
 }
 
@@ -52,18 +59,18 @@ header {
 @media screen and (max-width: 768px) {
   /* Adjustments for smaller screens */
   .header-logo {
-    font-size: 30px;
+      font-size: 24px;
   }
 
   h1 {
-    font-size: 30px;
+      font-size: 24px;
   }
 
   h2 {
-    font-size: 20px;
+      font-size: 18px;
   }
 
   li {
-    font-size: 16px;
+      font-size: 16px;
   }
 }
